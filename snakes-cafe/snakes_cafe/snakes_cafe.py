@@ -3,18 +3,18 @@ def welcoming():
     Salmon=["Steak"," Meat Tornado "," A Literal Garden"]
     Desserts =["Ice Cream ","Cake","Pie"]
     Drinks=["Coffee","Tea","Unicorn Tears"]
-    Cookies_counter=1
-    Spring_Rolls_counter=1
-    Entrees_counter=1
-    Steak_counter=1
-    Meat_Tornado_counter=1
-    A_Literal_Garden_counter=1
-    Ice_Cream_counter=1
-    Cake_counter=1
-    Pie_coonter=1
-    coffe_counter=1
-    Tea_counter=1
-    Unicorn_Tears_counter=1
+    Cookies_counter=0
+    Spring_Rolls_counter=0
+    Entrees_counter=0
+    Steak_counter=0
+    Meat_Tornado_counter=0
+    A_Literal_Garden_counter=0
+    Ice_Cream_counter=0
+    Cake_counter=0
+    Pie_coonter=0
+    coffe_counter=0
+    Tea_counter=0
+    Unicorn_Tears_counter=0
 
 
 
@@ -115,7 +115,9 @@ def welcoming():
                 print( f"{Unicorn_Tears_counter} order of {user_input} have been added to your meal")
                 user_input=input("What would you like to order?")
          
-      
+
+
+
 
     
         
@@ -130,5 +132,15 @@ def welcoming():
 
 
 
-print(welcoming())   
+print(welcoming())
+
+# arr=[1,2,3,4]
+# newarr=[]
+# steps=-1
+# for i in range(len(arr)-1,0,steps):
+#   newarr.append(i)  
+# print(newarr)
+    
+
+
 
