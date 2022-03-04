@@ -118,21 +118,16 @@ def welcoming():
 
 
 
-
-    
         
         elif user_input=="quit":
             break
     
 
-
-    
-
-
-
-
-
 print(welcoming())
+
+
+
+
 
 # arr=[1,2,3,4]
 # newarr=[]
@@ -141,6 +136,61 @@ print(welcoming())
 #   newarr.append(i)  
 # print(newarr)
     
+
+# arr=[1,2,3,4]
+
+
+# def reverse_array(arr):
+#  i=0
+#  j=len(arr)-1
+
+#  while i<j:
+#    arr[j],arr[i]=arr[i],arr[j]
+#    i+=1
+#    j-=1 
+#  return arr
+
+
+# print(reverse_array(arr))
+
+
+
+
+# from hashlib import new
+
+
+# arr=[1,2,7,4,5]
+
+# def fun(arr,item):
+#   newarr=[1,2,5,7,3,7,8] 
+#   middle=int(len(arr)/2)
+#   i=0
+#   while i<len(arr)+5:
+#     if i<=middle: 
+#       newarr[i]=arr[i]
+#     elif i>middle :
+#       newarr[i]=arr[i]
+#     i+=1
+
+#   return newarr
+
+# print(fun(arr,3))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
